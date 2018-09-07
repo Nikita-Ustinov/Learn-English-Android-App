@@ -63,4 +63,8 @@ public class ChooseWordWeeks extends AppCompatActivity {
             }
         }
     }
+
+    public void onBakcClick(View view) {
+        finish();
+    }
 }

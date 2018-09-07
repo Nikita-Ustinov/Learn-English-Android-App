@@ -266,4 +266,8 @@ public class ShowWords extends AppCompatActivity implements GestureDetector.OnGe
     public void onSwipeRight() {
         previosWord();
     }
+
+    public void onBakcClick(View view) {
+        finish();
+    }
 }
