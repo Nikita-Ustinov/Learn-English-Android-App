@@ -6,14 +6,15 @@ android {
         applicationId "alpha.english.nikitaustinov.learnenglish"
         minSdkVersion 15
         targetSdkVersion 27
-        versionCode 1
-        versionName "0.8"
+        versionCode 2
+        versionName "0.81"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            shrinkResources true
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
 }
